@@ -13,6 +13,7 @@ export default function GlobalNavbar() {
       <button
         className="fixed top-4 left-4 z-50 p-2 text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 rounded"
         onClick={() => setIsSidebarOpen(true)}
+        title="Title"
       >
         <GiHamburgerMenu size={24} />
       </button>
@@ -22,6 +23,7 @@ export default function GlobalNavbar() {
         <nav className="flex flex-col space-y-4">
           <a href="/home" className="hover:underline">Home</a>
           <a href="/about" className="hover:underline">About</a>
+          <a href="/project" className="hover:underline">Project</a>
           <a href="/contact" className="hover:underline">Contact</a>
           <a href="/login" className="hover:underline">Login</a>
         </nav>
